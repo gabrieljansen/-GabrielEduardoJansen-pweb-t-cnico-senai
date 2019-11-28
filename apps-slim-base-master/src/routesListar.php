@@ -21,7 +21,7 @@ return function (App $app) {
 
         $args['carro'] = $listar;
 
-
+     
         // Render index view
         return $container->get('renderer')->render($response, 'index2.phtml', $args);
 
